@@ -5,7 +5,7 @@ rust_library {
     host_supported: true,
     crate_name: "idna",
     srcs: ["src/lib.rs"],
-    edition: "2015",
+    edition: "2018",
     rustlibs: [
         "libmatches",
         "libunicode_bidi",
@@ -20,7 +20,7 @@ rust_library {
 
 // dependent_library ["feature_list"]
 //   matches-0.1.8
-//   tinyvec-1.1.0 "alloc,default,tinyvec_macros"
+//   tinyvec-1.1.1 "alloc,default,tinyvec_macros"
 //   tinyvec_macros-0.1.0
 //   unicode-bidi-0.3.4 "default"
-//   unicode-normalization-0.1.16 "default,std"
+//   unicode-normalization-0.1.17 "default,std"
