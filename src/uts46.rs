@@ -309,6 +309,7 @@ fn check_validity(label: &str, config: Config, errors: &mut Errors) {
         _ => true,
     }) {
         errors.invalid_mapping = true;
+        return;
     }
 
     // V7: ContextJ rules
