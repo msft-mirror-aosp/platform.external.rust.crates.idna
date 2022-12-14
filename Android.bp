@@ -42,11 +42,10 @@ rust_library {
     host_supported: true,
     crate_name: "idna",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.2.3",
+    cargo_pkg_version: "0.3.0",
     srcs: ["src/lib.rs"],
     edition: "2018",
     rustlibs: [
-        "libmatches",
         "libunicode_bidi",
         "libunicode_normalization",
     ],
